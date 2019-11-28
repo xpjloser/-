@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.xpj {
+    margin: 0 .533333rem;
+}
+
+.fh {
+    width: .533333rem;
+    height: .533333rem;
+    margin: .533333rem 0;
+}
+
+.fh a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/fh.png) no-repeat;
+    background-size: 50%;
+}
+
+.xpj b {
+    display: inline-block;
+    width: 2.133333rem;
+    height: .746667rem;
+    font-size: .533333rem;
+    color: #333;
+}
+
+.xiaoxi {
+    display: inline-block;
+    width: 2.56rem;
+    height: .453333rem;
+    font-size: .32rem;
+    color: #999;
+}
+
+
+/* 消息的时间 */
+
+.time {
+    display: block;
+    width: 3.813333rem;
+    height: .426667rem;
+    margin: .8rem 0 .32rem 3.04rem;
+    font-size: .32rem;
+    color: #999;
+}
+
+
+/* 消息盒子 */
+
+.massage {
+    width: 8.106667rem;
+    height: 2.96rem;
+    padding: 0 .32rem 0 .64rem;
+    border: .026667rem solid #e7e7e7;
+    box-shadow: 0 .213333rem .48rem 0 rgba(0, 0, 0, 0.03);
+    border-radius: .4rem;
+}
+
+
+/* 小红点盒子 */
+
+.massage div {
+    width: .186667rem;
+    height: .186667rem;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: 7.706667rem;
+    margin-top: .32rem;
+}
+
+.massage .current {
+    background-color: red;
+}
+
+
+/* 积分到账提醒 */
+
+.massage b {
+    display: block;
+    width: 2.853333rem;
+    height: .426667rem;
+    margin-bottom: .426667rem;
+    font-size: .373333rem;
+}
+
+.massage p {
+    width: 8.346667rem;
+    height: 1.12rem;
+    font-size: .373333rem;
+    color: #999;
+}

@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix:after {
+    /*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+
+
+/* 版心盒子 */
+
+.xpj {
+    margin: 0 .533333rem;
+}
+
+.fh {
+    width: .533333rem;
+    height: .533333rem;
+    margin: .533333rem 0;
+}
+
+
+/* 返回盒子 */
+
+.fh a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/fh.png) no-repeat;
+    background-size: 50%;
+}
+
+
+/* tab栏切换列表框 */
+
+.liebiao li {
+    float: left;
+    height: .453333rem;
+    line-height: .453333rem;
+    margin-right: .64rem;
+    font-size: .32rem;
+    color: #666;
+}
+
+
+/* tab栏切换后字体要有的样式 */
+
+.liebiao .current {
+    height: .746667rem;
+    margin-top: -0.266667rem;
+    font-size: .533333rem;
+    color: #333;
+    font-weight: 700;
+    line-height: .746667rem;
+}
+
+
+/* 切换后出来的小黄盒子 */
+
+.current::after {
+    content: '';
+    display: block;
+    width: .426667rem;
+    height: .213333rem;
+    margin: auto;
+    background-color: #FDDF00;
+    border: .026667rem solid #3b3b3b;
+    border-radius: 2.666667rem;
+    box-sizing: border-box;
+}
+
+
+/* 收藏的产品 */
+
+
+/* 两个产品盒子 */
+
+.chanpin_one,
+.chanpin_two {
+    overflow: hidden;
+    height: 3.04rem;
+    border: .013333rem solid #e7e7e7;
+    border-radius: .4rem;
+    box-shadow: 0 .213333rem .48rem 0 rgba(0, 0, 0, 0.03);
+}
+
+.chanpin_one {
+    margin: .533333rem 0 .346667rem 0;
+}
+
+
+/* 产品图片 */
+
+.photo {
+    float: left;
+    width: 1.866667rem;
+    height: 1.866667rem;
+    margin: .48rem 0 0 .48rem;
+    background-color: #f9f9fb;
+    border-radius: .266667rem;
+}
+
+.photo img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+/* 中间美容仪，国旗模块 */
+
+.center {
+    float: left;
+    margin-left: .426667rem;
+    margin-top: .666667rem;
+    text-align: left;
+}
+
+.chanpin_one p,
+.chanpin_two p {
+    font-size: .373333rem;
+    color: #333;
+}
+
+
+/* 国旗设置 */
+
+.chanpin_one p::before,
+.chanpin_two p::before {
+    content: '';
+    display: block;
+    width: .373333rem;
+    height: .266667rem;
+    background: url(../upload/qizi.png) no-repeat;
+    background-size: 100%;
+    border: .026667rem solid #F2F2F2;
+}
+
+
+/* 价格 */
+
+.chanpin_one span,
+.chanpin_two span {
+    display: block;
+    width: 1.04rem;
+    height: .586667rem;
+    margin-top: .32rem;
+    font-size: .426667rem;
+    color: #E4007B;
+    text-align: left;
+    line-height: .586667rem;
+}
+
+
+/* 购物车 */
+
+.shopcar {
+    float: right;
+    width: .666667rem;
+    height: .666667rem;
+    margin: 1.68rem .666667rem 0 0;
+}
+
+.shopcar img {
+    width: 100%;
+}

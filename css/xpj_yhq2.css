@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 顶部版心 */
+
+.xpj {
+    margin: 0 .533333rem;
+}
+
+.fh {
+    width: .533333rem;
+    height: .533333rem;
+    margin: .533333rem 0;
+}
+
+
+/* 返回按钮 */
+
+.fh a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/fh.png) no-repeat;
+    background-size: 50%;
+}
+
+
+/* 按钮下面的字体 */
+
+.xpj b {
+    display: inline-block;
+    width: 1.6rem;
+    height: .746667rem;
+    font-size: .533333rem;
+    color: #333;
+}
+
+.xpj span {
+    display: inline-block;
+    font-size: .32rem;
+    color: #999;
+}
+
+
+/* 两个优惠券盒子 */
+
+.yhq_one,
+.yhq_two {
+    width: 9.12rem;
+    height: 2.373333rem;
+    margin: .533333rem .426667rem .266667rem;
+    background: url(../img/Group-9_03.png) no-repeat;
+    background-size: 100%;
+    border-radius: .213333rem;
+    box-shadow: 0 .213333rem .48rem 0 rgba(0, 0, 0, 0.03);
+}
+
+
+/* 优惠券里面p的样式 */
+
+.yhq_one p,
+.yhq_two p {
+    font-size: .32rem;
+    height: .453333rem;
+    line-height: .453333rem;
+}
+
+
+/* 优惠券左边盒子 */
+
+.left {
+    float: left;
+    margin-top: .426667rem;
+    margin-left: .533333rem;
+}
+
+.left b {
+    display: block;
+    height: .426667rem;
+    font-size: .426667rem;
+    line-height: .426667rem;
+}
+
+.left span {
+    display: block;
+    height: .373333rem;
+    margin-top: .213333rem;
+    color: #333;
+    font-size: .266667rem;
+}
+
+
+/* 下边优惠券里面左侧logo */
+
+.logo {
+    overflow: hidden;
+    float: left;
+    margin-top: .48rem;
+    margin-left: .4rem;
+    width: 1.013333rem;
+    height: 1.013333rem;
+    border-radius: .16rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+/* 下边logo右边内容 */
+
+.center {
+    margin-top: .533333rem;
+    margin-left: .266667rem;
+}
+
+.center b {
+    font-size: .373333rem;
+}
+
+
+/* 优惠券最右边价钱那个盒子 */
+
+.money {
+    float: right;
+    margin-top: .533333rem;
+    margin-right: .346667rem;
+    text-align: right;
+}
+
+.money span {
+    margin-right: -0.133333rem;
+    color: #333;
+    font-size: .426667rem;
+    font-weight: 700;
+}
+
+.money b {
+    font-size: .8rem;
+}

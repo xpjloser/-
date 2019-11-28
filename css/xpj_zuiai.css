@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix:after {
+    /*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+
+
+/* 版心盒子 */
+
+.xpj {
+    margin: 0 .533333rem;
+}
+
+.fh {
+    width: .533333rem;
+    height: .533333rem;
+    margin: .453333rem 0;
+}
+
+.fh a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/fh.png) no-repeat;
+    background-size: 50%;
+}
+
+
+/* 返回下面字体 */
+
+.xpj b {
+    display: inline-block;
+    width: 2.133333rem;
+    height: .746667rem;
+    font-size: .533333rem;
+    color: #333;
+    line-height: .746667rem;
+}
+
+.xpj span {
+    display: inline-block;
+    width: 2.24rem;
+    height: .453333rem;
+    font-size: .32rem;
+    color: #999;
+}
+
+
+/* 收藏的产品 */
+
+
+/* 两个产品盒子 */
+
+.chanpin_one,
+.chanpin_two {
+    overflow: hidden;
+    height: 3.04rem;
+    border: .013333rem solid #e7e7e7;
+    border-radius: .4rem;
+    box-shadow: 0 .213333rem .48rem 0 rgba(0, 0, 0, 0.03);
+}
+
+.chanpin_one {
+    margin: .48rem 0 .346667rem 0;
+}
+
+
+/* 产品图片 */
+
+.photo {
+    float: left;
+    width: 1.866667rem;
+    height: 1.866667rem;
+    margin: .48rem 0 0 .48rem;
+    background-color: #f9f9fb;
+    border-radius: .266667rem;
+}
+
+.photo img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+/* 中间美容仪，国旗模块 */
+
+.center {
+    float: left;
+    margin-left: .426667rem;
+    margin-top: .666667rem;
+}
+
+.chanpin_one p,
+.chanpin_two p {
+    font-size: .373333rem;
+    color: #333;
+}
+
+
+/* 国旗设置 */
+
+.chanpin_one p::before,
+.chanpin_two p::before {
+    content: '';
+    display: block;
+    width: .373333rem;
+    height: .266667rem;
+    /* margin: 25px 0 0 16px; */
+    background: url(../upload/qizi.png) no-repeat;
+    background-size: 100%;
+    border: .026667rem solid #F2F2F2;
+}
+
+
+/* 价格 */
+
+.chanpin_one span,
+.chanpin_two span {
+    /* width: 1.04rem; */
+    height: .586667rem;
+    margin-top: .32rem;
+    font-size: .426667rem;
+    font-weight: 700;
+    color: #E4007B;
+    line-height: .586667rem;
+    text-align: left;
+}
+
+
+/* 再次购买模块 */
+
+.buy {
+    float: right;
+    width: 1.92rem;
+    height: .8rem;
+    margin: -0.666667rem .426667rem 0 0;
+    background-color: #003A9B;
+    font-size: .32rem;
+    color: #fff;
+    text-align: center;
+    line-height: .8rem;
+    border-radius: 2.666667rem;
+}

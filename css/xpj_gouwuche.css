@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.xpj {
+    margin-left: .426667rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+button,
+input {
+    outline: none;
+    border: 0;
+}
+
+i {
+    font-style: normal;
+}
+
+
+/* 编辑模块 */
+
+.bianji a {
+    display: block;
+    margin: .586667rem .586667rem .426667rem 0;
+    font-size: .346667rem;
+    text-align: right;
+    line-height: .426667rem;
+}
+
+
+/* 购物车文字模块 */
+
+.wenzi {
+    margin-bottom: .346667rem;
+}
+
+.wenzi b {
+    font-size: .533333rem;
+    color: #333;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.wenzi span {
+    font-size: .32rem;
+    color: #999;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+
+/* tab栏模块 */
+
+.tab {
+    /* padding-left: .48rem; */
+    padding: 0 .48rem;
+    width: 100%;
+    height: 1.653333rem;
+    background-color: #f9f9f9;
+    line-height: 1.653333rem;
+}
+
+.change,
+.change_one,
+.danxuan {
+    float: left;
+    height: 0.506667rem;
+    width: 0.506667rem;
+    margin-top: .586667rem;
+    background: url(../upload/miss.png) no-repeat;
+    background-size: .506667rem .506667rem;
+}
+
+.checkbox_all,
+.checkbox_item,
+.checkbox_dianjia {
+    float: left;
+    width: .506667rem;
+    height: .506667rem;
+    border: .026667rem solid #333333;
+    opacity: 0;
+}
+
+.tab span {
+    float: left;
+    margin-top: .613333rem;
+    margin-left: .08rem;
+    font-size: .32rem;
+    color: #3F3F3F;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: .426667rem;
+}
+
+.tab .heji {
+    float: left;
+    margin-top: .613333rem;
+    margin-left: .506667rem;
+    font-size: .32rem;
+    color: #E4007B;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: .426667rem;
+}
+
+.tab .heji i {
+    font-size: .32rem;
+    color: #666666;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: .426667rem;
+}
+
+.tab .heji b {
+    margin: 0 -0.106667rem;
+    font-size: .426667rem;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: .426667rem;
+}
+
+
+/* 三个按钮 */
+
+.xpj_shengcheng {
+    float: left;
+    margin: .16rem 0 .16rem .106667rem;
+    width: 2.346667rem;
+    height: 1.306667rem;
+    background: #003A9B;
+    border-radius: 2.666667rem;
+    color: #fff;
+    font-size: .32rem;
+}
+
+.xpj_jiesuan {
+    float: left;
+    margin: .16rem 0 .16rem .106667rem;
+    width: 2.346667rem;
+    height: 1.306667rem;
+    background: #fddf00;
+    border-radius: 2.666667rem;
+    color: #333;
+    font-size: .32rem;
+}
+
+
+/* 删除按钮 */
+
+.xpj_shanchu {
+    display: none;
+    float: right;
+    margin-top: .16rem;
+    margin-right: -2.933333rem;
+    width: 3.44rem;
+    height: 1.306667rem;
+    background: #FDDF00;
+    border-radius: 2.666667rem;
+    color: #000;
+    font-size: .32rem;
+}
+
+
+/* 商品栏 */
+
+.xpj_box {
+    margin: .32rem auto;
+    padding: 0 .48rem 0 .426667rem;
+    width: 8.933333rem;
+    height: 8.4rem;
+    border-radius: .4rem;
+    border: .026667rem solid #eee;
+    box-shadow: 0 0.213333rem 0.48rem 0 rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.xpj_box .dianpu {
+    height: 2.106667rem;
+}
+
+.dianpu .change_one {
+    margin-top: .746667rem;
+}
+
+.xpj_box .checkbox_all {
+    width: .506667rem;
+    height: .506667rem;
+    border: .026667rem solid #333333;
+    opacity: 0;
+}
+
+.xpj_box b {
+    float: left;
+    margin: .8rem 0 0 .24rem;
+    font-size: .373333rem;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: .426667rem;
+}
+
+.xpj_box i {
+    float: right;
+    margin-top: .8rem;
+    font-size: .373333rem;
+    color: #999999;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: .426667rem;
+}
+
+.xpj_box .xpj_chanpin {
+    height: 2.4rem;
+    margin-bottom: .666667rem;
+}
+
+.danxuan {
+    margin-top: 1.2rem;
+}
+
+.photo {
+    float: left;
+    width: 1.866667rem;
+    height: 1.866667rem;
+    margin: .48rem 0 0 .48rem;
+    background-color: #f9f9fb;
+    border-radius: .266667rem;
+}
+
+.photo img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+/* 中间美容仪，国旗模块 */
+
+.center {
+    float: left;
+    margin-left: .426667rem;
+    margin-top: .266667rem;
+}
+
+.xpj_chanpin p {
+    font-size: .373333rem;
+    color: #333;
+}
+
+
+/* 国旗设置 */
+
+.xpj_chanpin p::before {
+    content: '';
+    display: block;
+    width: .373333rem;
+    height: .266667rem;
+    /* margin: 25px 0 0 16px; */
+    background: url(../upload/qizi.png) no-repeat;
+    background-size: 100%;
+    border: .026667rem solid #F2F2F2;
+}
+
+
+/* 价格 */
+
+.xpj_chanpin span {
+    /* width: 1.04rem; */
+    height: .586667rem;
+    margin-top: .32rem;
+    font-size: .426667rem;
+    font-weight: 700;
+    color: #E4007B;
+    line-height: .586667rem;
+    text-align: left;
+}
+
+.xpj_num {
+    float: right;
+    width: 2.133333rem;
+    height: .693333rem;
+    margin-top: -0.586667rem;
+}
+
+.xpj_jian,
+.xpj_jia {
+    float: left;
+    border: .026667rem solid #cacbcb;
+    height: .48rem;
+    line-height: .48rem;
+    padding: .026667rem 0;
+    width: .426667rem;
+    text-align: center;
+    color: #666;
+    margin: 0;
+    background: #fff;
+    margin-left: -0.026667rem;
+    font-size: .32rem;
+}
+
+.shuliang {
+    float: left;
+    border: .026667rem solid #cacbcb;
+    width: 1.12rem;
+    height: .48rem;
+    line-height: .48rem;
+    text-align: center;
+    padding: .026667rem;
+    margin: 0;
+    margin-left: -0.026667rem;
+    font-size: .32rem;
+    font-family: verdana;
+    color: #333;
+}
+
+
+/* 商品后的小黄删除按钮 */
+
+.xpj_chanpin .del {
+    float: right;
+    margin: -1.333333rem -4.213333rem;
+    width: 1.466667rem;
+    height: 1.466667rem;
+    background-color: #fddf00;
+    font-size: .32rem;
+    color: #333333;
+    text-align: center;
+    line-height: 1.466667rem;
+    border-radius: 50%;
+}
+
+
+/* 选中的状态 */
+
+.xuanzhong {
+    background: url(../upload/change.png) no-repeat !important;
+    background-size: .506667rem .506667rem !important;
+}
+
+
+/* 下边固定栏 */
+
+.mydrem {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.333333rem;
+    padding-top: .213333rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 -0.106667rem .16rem 0 rgba(219, 219, 219, 0.50);
+}
+
+.mydrem ul {
+    display: flex;
+    height: 100%;
+    font-size: .266667rem;
+}
+
+.mydrem ul li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mydrem ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.mydrem li img {
+    width: .666667rem;
+    height: .666667rem;
+}
+
+.mydrem li p {
+    font-size: .266667rem;
+}
+
+.mydrem li:nth-child(3) {
+    position: relative;
+}
+
+.mydrem li:nth-child(3) img {
+    width: 1.52rem;
+    height: 2.026667rem;
+    margin-top: -0.8rem;
+}
+
+.mydrem li:nth-child(3) p {
+    position: absolute;
+    top: .693333rem;
+    left: .48rem;
+}
